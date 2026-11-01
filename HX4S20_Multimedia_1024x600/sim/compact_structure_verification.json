@@ -1,0 +1,231 @@
+{
+  "result": "PASS",
+  "scope": "legacy_rtl_structural_relocation_candidate_with_original_path_include_shims",
+  "formal_project_modified": false,
+  "active_source_list_modified": false,
+  "synthesis_run": false,
+  "place_route_run": false,
+  "active_source_count": 44,
+  "files": [
+    {
+      "old_path": "rtl/audio_pcm.v",
+      "archive_path": "rtl/legacy/audio_pcm.v",
+      "payload_bytes": 1803,
+      "payload_sha256": "DD6984F7694F0F07CA2D75AFB71FFBC5A4AF93D04EEB84AE5DB3E7E754C97082",
+      "wrapper_sha256": "5A6E5349AF33137E9A30E7267EDAA5FDE1C237CB16C1DFD28A0ADC44F8550405",
+      "preprocessed_token_count": 383,
+      "preprocessed_token_sha256": "90E10ED20916CED0AA577D3E4A0F49487C004509340E77377263674C1E2A6C37",
+      "preprocessor_equivalence": "PASS",
+      "preprocessor_commands": [
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\audio_pcm_before_preprocessed.v",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl\\audio_pcm.v"
+        ],
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\audio_pcm_after_preprocessed.v",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\structure\\rtl\\audio_pcm.v"
+        ]
+      ]
+    },
+    {
+      "old_path": "rtl/audio_spectrum.v",
+      "archive_path": "rtl/legacy/audio_spectrum.v",
+      "payload_bytes": 5789,
+      "payload_sha256": "7CCACEFBBF949CCBCB1205FEC52CFF83577DB67F499242FF66BCFB63F586D753",
+      "wrapper_sha256": "D9BE74B5FE23173F40BDDBB2AF209AD3A258CFFE2C6AAA3399D426C05E16857D",
+      "preprocessed_token_count": 1636,
+      "preprocessed_token_sha256": "2061CBCA8127497944E68858F21A01111B8662DC4DED67E80B5E8DD3273A5C03",
+      "preprocessor_equivalence": "PASS",
+      "preprocessor_commands": [
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\audio_spectrum_before_preprocessed.v",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl\\audio_spectrum.v"
+        ],
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\audio_spectrum_after_preprocessed.v",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\structure\\rtl\\audio_spectrum.v"
+        ]
+      ]
+    },
+    {
+      "old_path": "rtl/bmp_bilinear_scaler.v",
+      "archive_path": "rtl/legacy/bmp_bilinear_scaler.v",
+      "payload_bytes": 5260,
+      "payload_sha256": "22BC4E3D40E67FFD33D2AD353FFB40EF54D89E1B8F576F51E4C6679C5D45F1E3",
+      "wrapper_sha256": "19AF161E7DE5DE579E4B482C2FE0FE4DD4E51B8A5127062E69069ED276A24049",
+      "preprocessed_token_count": 1723,
+      "preprocessed_token_sha256": "69B21050F988F1E44680F3C92731615EA6382159CDFE4F63B7CDB3CFD5CD0BDF",
+      "preprocessor_equivalence": "PASS",
+      "preprocessor_commands": [
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\bmp_bilinear_scaler_before_preprocessed.v",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl\\bmp_bilinear_scaler.v"
+        ],
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\bmp_bilinear_scaler_after_preprocessed.v",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\structure\\rtl\\bmp_bilinear_scaler.v"
+        ]
+      ]
+    },
+    {
+      "old_path": "rtl/sonic_engraving.v",
+      "archive_path": "rtl/legacy/sonic_engraving.v",
+      "payload_bytes": 6542,
+      "payload_sha256": "E98E5EBA54C1EA04B337FA1ED871AE26447BBB2B8258CB1141200955F41FC904",
+      "wrapper_sha256": "13236955CD66BE1832E55F68F252BE3B37DD59174771DF4E635338E24E80F551",
+      "preprocessed_token_count": 1916,
+      "preprocessed_token_sha256": "61037418CEA985DB72F8F2C3B2606E6C350FAC68415055911F03DFFFDC295563",
+      "preprocessor_equivalence": "PASS",
+      "preprocessor_commands": [
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\sonic_engraving_before_preprocessed.v",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl\\sonic_engraving.v"
+        ],
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\sonic_engraving_after_preprocessed.v",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\structure\\rtl\\sonic_engraving.v"
+        ]
+      ]
+    },
+    {
+      "old_path": "rtl/video_pixels.v",
+      "archive_path": "rtl/legacy/video_pixels.v",
+      "payload_bytes": 891,
+      "payload_sha256": "4E956994CBCAECB0650CB9511AFF329464B15F49F8C2D185ED2E2E448EEEDF6E",
+      "wrapper_sha256": "C48442511AA6A9247EB84C7F1BE53224070B6747A7B508283510909F679261EA",
+      "preprocessed_token_count": 210,
+      "preprocessed_token_sha256": "5F3E9C9CAAFA58D876FCA20A6EAF37C4C01EB81F420A2FFFEB892DDD1CD27289",
+      "preprocessor_equivalence": "PASS",
+      "preprocessor_commands": [
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\video_pixels_before_preprocessed.v",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl\\video_pixels.v"
+        ],
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\video_pixels_after_preprocessed.v",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\structure\\rtl\\video_pixels.v"
+        ]
+      ]
+    },
+    {
+      "old_path": "rtl/video_pixels_rgb565.v",
+      "archive_path": "rtl/legacy/video_pixels_rgb565.v",
+      "payload_bytes": 1120,
+      "payload_sha256": "8AFC96A331C49C95FFD534A03C59B1E931EEFCD3C4F159BE08191356360DD2BF",
+      "wrapper_sha256": "AA95F3EE9E4F278C08AE9C92F149CFB910B4B6BB643AD1E7C3C1507CF90D4FF4",
+      "preprocessed_token_count": 331,
+      "preprocessed_token_sha256": "A763227C0D9578F539F59B2E72ED6C9E075CE45A0ADFD6671F03E1CD01B47879",
+      "preprocessor_equivalence": "PASS",
+      "preprocessor_commands": [
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\video_pixels_rgb565_before_preprocessed.v",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl\\video_pixels_rgb565.v"
+        ],
+        [
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\tools\\iverilog-portable\\bin\\iverilog.exe",
+          "-g2012",
+          "-E",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600",
+          "-I",
+          "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\rtl",
+          "-o",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\video_pixels_rgb565_after_preprocessed.v",
+          "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\cleanup\\structure\\rtl\\video_pixels_rgb565.v"
+        ]
+      ]
+    }
+  ],
+  "assets_moved": false,
+  "assets_retained_reason": "font_cn.mem is generated by the old make_osd_assets.ps1; spectrum_cos.mem remains a small historical reference. Neither participates in active synthesis. Retain them rather than widening script edits for 3104 bytes.",
+  "execution_assumption": "Historical test runners enter the project root; include directories root and/or rtl are retained.",
+  "protected": "No failure logs, release reports, signed bitstreams, databases or backups changed."
+}

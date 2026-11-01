@@ -1,0 +1,355 @@
+{
+  "result": "PASS_SOURCE_READBACK_ONLY",
+  "stage": "SOURCE_ONLY_NOT_SYNTHESIZED",
+  "date": "2026-10-31",
+  "full_synthesis_run": false,
+  "place_route_run": false,
+  "bitstream_generated": false,
+  "tf_card_accessed": false,
+  "board_programmed": false,
+  "source_count": 44,
+  "active_rtl_modified": [
+    "user_source/hdl_source/SD/bmp_read.v",
+    "rtl/video_zoom_rgb565.v"
+  ],
+  "lba_equivalence_vectors": 37888,
+  "zoom_cycle_comparisons": 220000,
+  "zoom_arithmetic_cases": 128,
+  "reader_regression_suites": 6,
+  "subtitle_pack_scenarios": 17,
+  "full_zoom_raster_regression": "NOT_COMPLETED_USER_INTERRUPTION",
+  "resource_result": null,
+  "timing_result": null,
+  "gui_runs_reset_by_archive": "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\backup_before_compact_20261031\\gui_runs_before_reset",
+  "old_signed_bit": {
+    "file": "HX4S20_Multimedia_1024x600_wave_layer.bit",
+    "sha256": "994DAF125AE1E8F8F894E9C19C3E04A153072A17B909F51BFF6C1700020B490E",
+    "contains_compact_changes": false
+  },
+  "backup": "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\backup_before_compact_20261031",
+  "files": [
+    {
+      "path": "HX4S20_Multimedia_1024x600.al",
+      "bytes": 18980,
+      "sha256": "9EB2EF4DDA4D028EE543A8AA61E8FFD65CDED2FC1F0E659EEDD27DA3BD1CE147"
+    },
+    {
+      "path": "HX4S20_Multimedia_1024x600.prj",
+      "bytes": 15834,
+      "sha256": "D18786BE48244AA04FAD668A5F483774EE43FF7E4270B5F734EB0AFBE9A362D1"
+    },
+    {
+      "path": "OPTIMIZATION_NOTES.md",
+      "bytes": 3940,
+      "sha256": "9145753BEF7932FCC56A0AC6D78D213D84026EA4CC2A575F9619C9EB811DE005"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2626,
+      "sha256": "8C9399668E85085D833BB658D499EA58082EAF9BB5237ED6F36A1B7E7F6C07B9"
+    },
+    {
+      "path": "build.tcl",
+      "bytes": 624,
+      "sha256": "84894A6BAEC98CC0BCC1FFFE034DFB9DF535DB8F95E3AC9C1790E193857B40F7"
+    },
+    {
+      "path": "build_compact_route.tcl",
+      "bytes": 4248,
+      "sha256": "F9F6AD4FFFE22F6A7BC4F3549864CDD468E5BDFA45C192E388E8B7C00537CA09"
+    },
+    {
+      "path": "build_compact_synth.tcl",
+      "bytes": 1227,
+      "sha256": "7297B313C37E986CFB98AE056F6553ABD9DCF676F8343219E2FA48544E035747"
+    },
+    {
+      "path": "docs/history/README_before_compact_20261031.md",
+      "bytes": 14932,
+      "sha256": "34126E60CA6B6D8FDDF4FC4A9B0C5190DB394A4659A16D71149772C355ACC70A"
+    },
+    {
+      "path": "rtl/audio_pcm.v",
+      "bytes": 104,
+      "sha256": "5A6E5349AF33137E9A30E7267EDAA5FDE1C237CB16C1DFD28A0ADC44F8550405"
+    },
+    {
+      "path": "rtl/audio_spectrum.v",
+      "bytes": 109,
+      "sha256": "D9BE74B5FE23173F40BDDBB2AF209AD3A258CFFE2C6AAA3399D426C05E16857D"
+    },
+    {
+      "path": "rtl/bmp_bilinear_scaler.v",
+      "bytes": 114,
+      "sha256": "19AF161E7DE5DE579E4B482C2FE0FE4DD4E51B8A5127062E69069ED276A24049"
+    },
+    {
+      "path": "rtl/legacy/README.md",
+      "bytes": 574,
+      "sha256": "86EB71AE37237A310C31C015EA451425AD61541675C627713C1CA777CD46DE80"
+    },
+    {
+      "path": "rtl/legacy/audio_pcm.v",
+      "bytes": 1803,
+      "sha256": "DD6984F7694F0F07CA2D75AFB71FFBC5A4AF93D04EEB84AE5DB3E7E754C97082"
+    },
+    {
+      "path": "rtl/legacy/audio_spectrum.v",
+      "bytes": 5789,
+      "sha256": "7CCACEFBBF949CCBCB1205FEC52CFF83577DB67F499242FF66BCFB63F586D753"
+    },
+    {
+      "path": "rtl/legacy/bmp_bilinear_scaler.v",
+      "bytes": 5260,
+      "sha256": "22BC4E3D40E67FFD33D2AD353FFB40EF54D89E1B8F576F51E4C6679C5D45F1E3"
+    },
+    {
+      "path": "rtl/legacy/sonic_engraving.v",
+      "bytes": 6542,
+      "sha256": "E98E5EBA54C1EA04B337FA1ED871AE26447BBB2B8258CB1141200955F41FC904"
+    },
+    {
+      "path": "rtl/legacy/video_pixels.v",
+      "bytes": 891,
+      "sha256": "4E956994CBCAECB0650CB9511AFF329464B15F49F8C2D185ED2E2E448EEEDF6E"
+    },
+    {
+      "path": "rtl/legacy/video_pixels_rgb565.v",
+      "bytes": 1120,
+      "sha256": "8AFC96A331C49C95FFD534A03C59B1E931EEFCD3C4F159BE08191356360DD2BF"
+    },
+    {
+      "path": "rtl/sonic_engraving.v",
+      "bytes": 110,
+      "sha256": "13236955CD66BE1832E55F68F252BE3B37DD59174771DF4E635338E24E80F551"
+    },
+    {
+      "path": "rtl/video_pixels.v",
+      "bytes": 107,
+      "sha256": "C48442511AA6A9247EB84C7F1BE53224070B6747A7B508283510909F679261EA"
+    },
+    {
+      "path": "rtl/video_pixels_rgb565.v",
+      "bytes": 114,
+      "sha256": "AA95F3EE9E4F278C08AE9C92F149CFB910B4B6BB643AD1E7C3C1507CF90D4FF4"
+    },
+    {
+      "path": "rtl/video_zoom_rgb565.v",
+      "bytes": 5008,
+      "sha256": "3B43559AFA9D724C57C44407375E48158FD1279BD08562FDDEC283D442FF843C"
+    },
+    {
+      "path": "sim/compact_gui_config_verification.json",
+      "bytes": 2297,
+      "sha256": "9CED97E8C36346918E2238847D3F3BA0BD96856B68C611DA7285BF7F53FC155C"
+    },
+    {
+      "path": "sim/compact_gui_export_probe.log",
+      "bytes": 2771,
+      "sha256": "4BF7B464F6FAA5890AC47A9DF0019863D24B20FF0E41B30CAECB60EE76BBCA11"
+    },
+    {
+      "path": "sim/compact_gui_project_mode.log",
+      "bytes": 5044,
+      "sha256": "725A70111203A220937E5142E61FF52561BD50B87F2B64A3E1977F0A9C0499E8"
+    },
+    {
+      "path": "sim/compact_gui_single_run.log",
+      "bytes": 5055,
+      "sha256": "4E9D8B78A14A19E158E0A251D365A4A069BAE25F135BA1D676F20A607267B3ED"
+    },
+    {
+      "path": "sim/compact_lba_equivalence.json",
+      "bytes": 1355,
+      "sha256": "C0E15442A9E65E0E764A18FDC4357DE3BE51384003A6F0BAF1BE7DCD5A1136CF"
+    },
+    {
+      "path": "sim/compact_reader_regression.json",
+      "bytes": 3720,
+      "sha256": "4E2A18F63BCF06377D1B3B19C810717149B66F4C0DA336DBB5A5E83C3F85DE35"
+    },
+    {
+      "path": "sim/compact_structure_verification.json",
+      "bytes": 10970,
+      "sha256": "196510C373419C0DD480D59CF52A935ABC328FDCC448EBFBB9F2E30C00EAA712"
+    },
+    {
+      "path": "sim/compact_tests/attempts_missing_fixture/tb_fat32.log",
+      "bytes": 287,
+      "sha256": "728EA1D09DA7397CD5CDEC74F9AA94B42F19AED76174C48BFF4AE341962D4359"
+    },
+    {
+      "path": "sim/compact_tests/attempts_missing_fixture/tb_fat32_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/attempts_missing_fixture/tb_fat32_result.json",
+      "bytes": 461,
+      "sha256": "4F4BF793BF77C5451D9DD316CB16B63C13DF82BAD4879C6430A7FCDFBBA0F794"
+    },
+    {
+      "path": "sim/compact_tests/bmp_read_reference.v",
+      "bytes": 52162,
+      "sha256": "8A2AE1D1D3FA82FA08C50345816D0C48AA21AF9265EE997608665048CB871E0B"
+    },
+    {
+      "path": "sim/compact_tests/lba_equivalence.log",
+      "bytes": 613,
+      "sha256": "4B6FC5E83386BF760B1DA52E6B88512058613DB4DCE98EEF59D4B03AC473D6CD"
+    },
+    {
+      "path": "sim/compact_tests/tb_bmp_ranges.log",
+      "bytes": 119,
+      "sha256": "970EBA52E2C48689713E7123E6D492792ACD497FFCFC0FA6EEBE2B1D131CD57C"
+    },
+    {
+      "path": "sim/compact_tests/tb_bmp_ranges_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/tb_bmp_ranges_result.json",
+      "bytes": 298,
+      "sha256": "3AB65227DD0FC9CC114932E6F73AF28BAB28E02949A7B52CE9C3CE036B639301"
+    },
+    {
+      "path": "sim/compact_tests/tb_cover_reader.log",
+      "bytes": 532,
+      "sha256": "370768B14226BEEDD59510A677B665A10BE83F162530E7AC5D7C143505E5C404"
+    },
+    {
+      "path": "sim/compact_tests/tb_cover_reader_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/tb_cover_reader_result.json",
+      "bytes": 714,
+      "sha256": "BBE13FD1FE1669F2C201954AFA0C533B072D50FF2F4F7A782F90FD16A9575A11"
+    },
+    {
+      "path": "sim/compact_tests/tb_gallery_pack_formats.log",
+      "bytes": 1425,
+      "sha256": "D090491A309D63E65B2B2D41CF37AC28BE020EB86261CD4CC11E4CC33AB22988"
+    },
+    {
+      "path": "sim/compact_tests/tb_gallery_pack_formats_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/tb_gallery_pack_formats_result.json",
+      "bytes": 1616,
+      "sha256": "8FB9CD963109281AD3597D2465FC1D91B0496C70FC4E79875E6113620FDB4FE5"
+    },
+    {
+      "path": "sim/compact_tests/tb_heritage_audio_reader.log",
+      "bytes": 119,
+      "sha256": "3CC90CD1A249C9A2D2E7304566B31325E3CBC547F8A2CF8640727D882376E40E"
+    },
+    {
+      "path": "sim/compact_tests/tb_heritage_audio_reader_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/tb_heritage_audio_reader_result.json",
+      "bytes": 309,
+      "sha256": "8C49173E0D45D4C7B3526DA2C9C8AD18557C6FD2BBE034EF613EF44444C373EF"
+    },
+    {
+      "path": "sim/compact_tests/tb_lba_share_equivalence.sv",
+      "bytes": 11386,
+      "sha256": "3DFB3C516C4C2664778CE3DBB46FB1E0E2804D463C679FE53E32E46347E20DD6"
+    },
+    {
+      "path": "sim/compact_tests/tb_playlist.log",
+      "bytes": 127,
+      "sha256": "A73B25C4F7833EE9E4EAEC66B717F3146913ADFE65AC51B96C8EFBF05CF960F0"
+    },
+    {
+      "path": "sim/compact_tests/tb_playlist_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/tb_playlist_result.json",
+      "bytes": 304,
+      "sha256": "D391E7702A0CAB2DCE075648F03BF9354FD130D8775F6738F259E92D56BDA3FA"
+    },
+    {
+      "path": "sim/compact_tests/tb_wav_reader.log",
+      "bytes": 81,
+      "sha256": "51C14BED6D509AC6510FD1DC3305CE38D96FA63F0C295CFF7FAFDA88E84874A2"
+    },
+    {
+      "path": "sim/compact_tests/tb_wav_reader_compile.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "sim/compact_tests/tb_wav_reader_result.json",
+      "bytes": 260,
+      "sha256": "7AEB06005319450249ED7C1DF5798D9FB603C8530E605981A13C4D386C47CEFB"
+    },
+    {
+      "path": "sim/compact_tests/tb_zoom_borrow_equivalence.sv",
+      "bytes": 2553,
+      "sha256": "5AFFFB3997914FE6B5AFD20AD355B42DBB5AE8AEF30B3205AD33BC98D9064D25"
+    },
+    {
+      "path": "sim/compact_tests/video_zoom_rgb565_reference.v",
+      "bytes": 4650,
+      "sha256": "9CDB75207E138EE2D400BFAA40E699264552DB6668F34D5881608087D2BF2FEC"
+    },
+    {
+      "path": "sim/compact_tests/zoom_equivalence.log",
+      "bytes": 179,
+      "sha256": "1B9508998740A7690B2E8ECD3ABD009C672104B81733C759399FE089AC20DAC0"
+    },
+    {
+      "path": "sim/compact_tests/zoom_raster_interrupted.log",
+      "bytes": 86,
+      "sha256": "43F355D087E74B58D9DB829468FA36AEC2B4994252A359E450F7788A70FB9788"
+    },
+    {
+      "path": "sim/compact_zoom_equivalence.json",
+      "bytes": 1069,
+      "sha256": "9C88BB319476F61C8092C474033A18E9BA0296657FD101A2111086206E367D1F"
+    },
+    {
+      "path": "tools/area_policy.tcl",
+      "bytes": 410,
+      "sha256": "8685F785F9C986835A1DF20DFB8622390F9CD27F741442D8A6ACF8477CC9801E"
+    },
+    {
+      "path": "tools/repair_gui_area_config.ps1",
+      "bytes": 4920,
+      "sha256": "63AC5FA4F0F3343E042C3A07950BB99745A94CD700D9798D7968DF4F41BFDA9C"
+    },
+    {
+      "path": "tools/run_compact_tests.py",
+      "bytes": 2358,
+      "sha256": "715A5BBFB6FDAD57543AE7472FDE4D4E9C8E1E9CBF4C228AAF8BBDFE428B1F82"
+    },
+    {
+      "path": "user_source/hdl_source/SD/bmp_read.v",
+      "bytes": 52399,
+      "sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    },
+    {
+      "path": "sim/compact_formal_configuration.log",
+      "bytes": 4018,
+      "sha256": "9D0C25E9CF430A082ACA0EEE3D3E88332677C92560B2BE6C2887E6EC82F40F2E"
+    },
+    {
+      "path": "sim/compact_gui_export.tcl",
+      "bytes": 8704,
+      "sha256": "3D434BB236D6AF323A4FD9426F1927551E649CD8CB3E7A57F72390E905852678"
+    }
+  ],
+  "formal_gui_read_export": "PASS_CONFIGURATION_ONLY_NO_HDL_ANALYSIS",
+  "gui_pin_and_timing_constraints_preserved": true,
+  "actual_gui_synthesis_after_reopen": "PENDING_USER_RUN"
+}

@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "stage": "FORMAL_FILES_READ_BACK_NOT_PROGRAMMED",
+  "bit_file": "HX4S20_Multimedia_1024x600_wave_layer.bit",
+  "bit_bytes": 665708,
+  "bit_sha256": "994DAF125AE1E8F8F894E9C19C3E04A153072A17B909F51BFF6C1700020B490E",
+  "release_sha256": "C4FF5DB0AFBF71987863D5E106C21CEBB68DEA72F38029935A45088C91C68428",
+  "verification_sha256": "5FA94ABBF76D20456F2187D976885F844C6F913BA8F1A9751D235CCA140A5411",
+  "readme_backup": "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\backup_before_wave_layer_release_20261028\\README.md",
+  "board_programmed": false,
+  "files": [
+    {
+      "path": "WAVE_LAYER_RELEASE.md",
+      "sha256": "982FEE256230CD12742BCF23464C39885DC629B5B4A7B227A8F8B67843FF9F1E"
+    },
+    {
+      "path": "README.md",
+      "sha256": "34126E60CA6B6D8FDDF4FC4A9B0C5190DB394A4659A16D71149772C355ACC70A"
+    },
+    {
+      "path": "sim/wave_layer_release.json",
+      "sha256": "C4FF5DB0AFBF71987863D5E106C21CEBB68DEA72F38029935A45088C91C68428"
+    },
+    {
+      "path": "sim/wave_layer_route_verification.json",
+      "sha256": "5FA94ABBF76D20456F2187D976885F844C6F913BA8F1A9751D235CCA140A5411"
+    }
+  ]
+}

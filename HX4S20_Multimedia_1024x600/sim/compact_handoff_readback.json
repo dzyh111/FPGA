@@ -1,0 +1,16 @@
+{
+  "result": "PASS_SOURCE_CONFIGURATION_READBACK_ONLY",
+  "source_report_sha256": "863284E647806F3FA62B51EAB1EA212A29BFE3EDA5F1EC473984022A9E5F5C18",
+  "synthesis_run": false,
+  "place_route_run": false,
+  "new_bitstream_generated": false,
+  "resource_or_timing_improvement_measured": false,
+  "files_read_back": 64,
+  "formal_gui_parameter_values": {
+    "add_map_lut_struct": "high",
+    "map_mode": "area_prior",
+    "multi_thread_mapping": "partition"
+  },
+  "sdc_sha256": "6EF920B2BEBF39B9022E5B95A5ECC7424DE0862C76A26CCCDDA36FF0870B57EF",
+  "old_bit_unchanged_sha256": "994DAF125AE1E8F8F894E9C19C3E04A153072A17B909F51BFF6C1700020B490E"
+}

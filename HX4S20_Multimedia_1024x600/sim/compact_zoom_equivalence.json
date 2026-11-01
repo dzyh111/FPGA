@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "scope": "exact_combinational_and_cycle_equivalence_only",
+  "candidate": "video_zoom_rgb565.v",
+  "candidate_sha256": "3B43559AFA9D724C57C44407375E48158FD1279BD08562FDDEC283D442FF843C",
+  "before_sha256": "D057D8282FE34CA4A421F0A92359BDDB56B48B17A9E1E0914BD176225D4C3664",
+  "arithmetic_full_domain_cases": 128,
+  "exact_cycle_state_comparisons": 220000,
+  "output": "PASS zoom borrow equivalence: 128 arithmetic full-domain cases, 220000 exact cycle/state comparisons, all 8 zoom codes and both cover states, resets/bubbles/handshake boundaries\n",
+  "existing_full_raster_test": {
+    "result": "NOT_COMPLETED",
+    "complete_frames_observed": 1,
+    "pixels_in_completed_frame": 614400,
+    "output": "ZOOM_FRAME frame=0 zoom=0 bank=0 pixels=614400 words=153600 min_fifo=1 refreshes=570\n",
+    "reason": "After user interruption the original execution session no longer exists; no suite PASS marker was produced. No rerun."
+  },
+  "synthesis_run": false,
+  "place_route_run": false,
+  "new_bitstream_generated": false
+}

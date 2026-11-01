@@ -1,0 +1,47 @@
+{
+  "result": "PASS_CONFIGURATION_ONLY",
+  "formal_modified": false,
+  "full_synthesis_run": false,
+  "hdl_analysis_run": false,
+  "place_route_run": false,
+  "bitgen_run": false,
+  "cases": [
+    {
+      "log": "check_run_config.log",
+      "result": "PASS_CONFIGURATION_ONLY",
+      "log_sha256": "4E9D8B78A14A19E158E0A251D365A4A069BAE25F135BA1D676F20A607267B3ED"
+    },
+    {
+      "log": "check_project_mode.log",
+      "result": "PASS_CONFIGURATION_ONLY",
+      "log_sha256": "725A70111203A220937E5142E61FF52561BD50B87F2B64A3E1977F0A9C0499E8"
+    }
+  ],
+  "files": [
+    {
+      "file": "HX4S20_Multimedia_1024x600.al",
+      "source_sha256": "510EBA798609A95452DC31B9027A9D639E10955D1E04973A3E907B932745A29F",
+      "target_sha256": "9EB2EF4DDA4D028EE543A8AA61E8FFD65CDED2FC1F0E659EEDD27DA3BD1CE147",
+      "source_entries_unchanged": true,
+      "project_path_unchanged": true
+    },
+    {
+      "file": "HX4S20_Multimedia_1024x600.prj",
+      "source_sha256": "3331E0E666FB448507F71CDBCC705F5F2427AB31E95607D9BDDCA3E0853FE815",
+      "target_sha256": "D18786BE48244AA04FAD668A5F483774EE43FF7E4270B5F734EB0AFBE9A362D1",
+      "source_entries_unchanged": true,
+      "project_path_unchanged": true
+    }
+  ],
+  "reload_requirement": "Close the currently cached project without saving, reopen the synchronized AL and reset synthesis/implementation runs; if closing GUI rewrites AL, reapply after it is fully closed.",
+  "limitation": "Configuration proof only. No new resource/timing signoff claimed. The GUI must actually reload the patched AL; stale open-window state can overwrite file changes.",
+  "native_exported_run_evidence": {
+    "result": "PASS_EXPORT_ONLY",
+    "script_sha256": "C913CDE9CAD5BDD542812532DD8E3CDD9297BE205BC4150A7978A994F02CD1C9",
+    "export_log_sha256": "4BF7B464F6FAA5890AC47A9DF0019863D24B20FF0E41B30CAECB60EE76BBCA11",
+    "actual_synWildParams": "gate add_map_lut_struct high gate multi_thread_mapping partition",
+    "area_prior_source": "Strategy/GateProperty confirmed by load_run_param/commit/report",
+    "exported_script_executed": false,
+    "limitation": "Temporary metadata-only project lacks complete source/constraint closure. Exported script is evidence only, not a replacement build script."
+  }
+}

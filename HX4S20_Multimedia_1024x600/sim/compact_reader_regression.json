@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "tests": [
+    {
+      "test": "tb_playlist",
+      "result": "PASS",
+      "seconds": 7.42,
+      "output": "PASS playlist: order, timing, modes, UTF8, fragmentation, truncation, EOF, bad-BMP skip, all-invalid error and subtitle remap\n",
+      "source_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    },
+    {
+      "test": "tb_wav_reader",
+      "result": "PASS",
+      "seconds": 0.31,
+      "output": "PASS wav_reader: FAT32 111.WAV discovery, RIFF validation, stereo PCM streaming\n",
+      "source_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    },
+    {
+      "test": "tb_heritage_audio_reader",
+      "result": "PASS",
+      "seconds": 0.64,
+      "output": "PASS heritage reader: basename scenes, five WAV choices, FAT crossing, sample totals, loop and in-flight cancellation\n",
+      "source_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    },
+    {
+      "test": "tb_bmp_ranges",
+      "result": "PASS",
+      "seconds": 0.22,
+      "output": "PASS BMP ranges: 1024x1024, offset4096, stride3072, file3149824, final-sector count, last-duplicate PLAYLIST priority\n",
+      "source_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    },
+    {
+      "test": "tb_cover_reader",
+      "result": "PASS",
+      "seconds": 22.98,
+      "output": "PASS cover reader scenario 0\nPASS cover reader scenario 1\nPASS cover reader scenario 2\nPASS cover reader scenario 3\nPASS cover reader scenario 4\nPASS cover reader scenario 5\nPASS cover reader scenario 6\nPASS cover reader scenario 7\nPASS cover reader scenario 8\nPASS cover reader scenario 9\nPASS cover reader scenario 10\nPASS cover reader scenario 11\nPASS cover reader: real FAT directory, 36-clock SPI spacing, separate handle, missing/corrupt/truncated/broken-chain/timeout fallback and fatal no-image/ordinary errors\n",
+      "source_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    },
+    {
+      "test": "tb_gallery_pack_formats",
+      "result": "PASS",
+      "seconds": 244.59,
+      "output": "PASS gallery pack formats scenario0 SUB2 spc1 fontwords1024 reads91\nPASS gallery pack formats scenario1 SUB2 spc8 fontwords1024 reads70\nPASS gallery pack formats scenario2 SUB2 spc2 fontwords1024 reads84\nPASS gallery pack formats scenario3 SUB2 spc1 fontwords1024 reads15\nPASS gallery pack formats scenario4 SUB2 spc1 fontwords1024 reads92\nPASS gallery pack formats scenario5 SUB2 spc1 fontwords128 reads2\nPASS gallery pack formats scenario6 SUB2 spc1 fontwords0 reads1\nPASS gallery pack formats scenario7 SUB2 spc1 fontwords0 reads0\nPASS gallery pack formats scenario8 SUB1 spc1 fontwords1024 reads50\nPASS gallery pack formats scenario9 SUB2 spc1 fontwords0 reads2\nPASS gallery pack formats scenario10 SUB2 spc1 fontwords0 reads1\nPASS gallery pack formats scenario11 SUB2 spc1 fontwords1024 reads8\nPASS gallery pack formats scenario12 SUB1 spc1 fontwords0 reads1\nPASS gallery pack formats scenario13 SUB2 spc1 fontwords0 reads1\nPASS gallery pack formats scenario14 SUB2 spc1 fontwords1024 reads23\nPASS gallery pack formats scenario15 SUB2 spc1 fontwords0 reads1\nPASS gallery pack formats scenario16 SUB2 spc1 fontwords0 reads1\nPASS gallery pack formats: 17 executed SUB1/SUB2 scenarios CASE_SELECT=-1; native E0/FF and C0/C1 tags, exact18bit words, sector/FAT groups, fresh quiet/idle, legacy16bit compatibility, invalid tag and declared glyph-bound checks; earlier full-suite evidence retained separately\n",
+      "source_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B"
+    }
+  ]
+}

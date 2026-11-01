@@ -1,0 +1,77 @@
+{
+  "result": "PASS",
+  "stage": "ROUTED_TIMING_SIGNED_OFF_NOT_PROGRAMMED",
+  "date": "2026-10-28",
+  "seed": 13,
+  "bit_file": "HX4S20_Multimedia_1024x600_wave_layer.bit",
+  "bit_bytes": 665708,
+  "bit_sha256": "994DAF125AE1E8F8F894E9C19C3E04A153072A17B909F51BFF6C1700020B490E",
+  "timing_ns": {
+    "SWNS": "0.195",
+    "STNS": "0.000",
+    "HWNS": "0.035",
+    "HTNS": "0.000"
+  },
+  "sta_coverage_percent": "99.99",
+  "clock_frequencies_mhz": {
+    "sys_pll_m0/pll_inst.clkc[0]": "40.000",
+    "video_pll_m0/pll_inst.clkc[0]": "51.201",
+    "sys_pll_m0/pll_inst.clkc[1]": "40.000",
+    "clk": "50.000",
+    "video_pll_m0/pll_inst.clkc[1]": "256.016",
+    "sys_pll_m0/pll_inst.clkc[2]": "40.000"
+  },
+  "physical_resources": {
+    "lut": {
+      "used": 16349,
+      "capacity": 19600
+    },
+    "reg": {
+      "used": 9423,
+      "capacity": 19600
+    },
+    "bram": {
+      "used": 63,
+      "capacity": 64
+    },
+    "dsp": {
+      "used": 11,
+      "capacity": 29
+    },
+    "le": {
+      "used": 16850,
+      "capacity": 19600
+    }
+  },
+  "actual_mslices": 4341,
+  "mslice_capacity": 4900,
+  "source_files_verified": 84,
+  "related_regressions_reused": 2,
+  "verification_sha256": "5FA94ABBF76D20456F2187D976885F844C6F913BA8F1A9751D235CCA140A5411",
+  "compilation_inputs_sha256": "12D60CE320AB94336ECF07329D68C35FF28A5ACA3185F205E71A8EEF669070FB",
+  "bitstream_format": {
+    "candidate_bytes": 665708,
+    "candidate_sha256": "994DAF125AE1E8F8F894E9C19C3E04A153072A17B909F51BFF6C1700020B490E",
+    "payload_bytes": 665421,
+    "payload_sha256": "F341E93E7F9CF4130F23706334DABD135EDE6E0D7B707250021983EF1210B7FF",
+    "independent_rebuild_payload_equal": true,
+    "header_fields": {
+      "Bitstream CRC": "01101101000101100011100100011010",
+      "Transfer CRC": "01101110011111001100111001010001",
+      "USER CODE": "00000000110010010000000000000000"
+    },
+    "limitation": "Exact independent vendor-generated payload/CRC-field comparison, not a reverse decode or independent CRC algorithm."
+  },
+  "pixel_pipeline": {
+    "osd": 6,
+    "subtitle": 3
+  },
+  "subtitle_white_background_percent": 75,
+  "waveform_above_caption": true,
+  "waveform_geometry_and_gain_unchanged": true,
+  "tf_card_updated": false,
+  "tf_card_accessed": false,
+  "board_programmed": false,
+  "real_board_validation_pending": true,
+  "previous_signed_bit_kept": "HX4S20_Multimedia_1024x600_wave_restore.bit"
+}

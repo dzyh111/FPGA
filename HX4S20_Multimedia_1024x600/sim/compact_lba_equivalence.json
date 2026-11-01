@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "scope": "full-width arithmetic and one-cycle request/output equivalence; no synthesis",
+  "baseline": "D:\\Anlogic\\TD_Project\\HX4S20_Multimedia_1024x600\\user_source\\hdl_source\\SD\\bmp_read.v",
+  "baseline_sha256": "B12B05C5CA666B39ABE4FCB45A452E775764E5CF75231C370B928498E83976E6",
+  "candidate": "C:\\Users\\dyzh\\Documents\\ChatGPT\\FPGA\\opt_20261031\\work\\user_source\\hdl_source\\SD\\bmp_read.v",
+  "candidate_sha256": "A0AAA12077D2E93EC6998FDF6F74E06BB571039C0C43733F2E01E1D03988179B",
+  "test_sha256": "3DFB3C516C4C2664778CE3DBB46FB1E0E2804D463C679FE53E32E46347E20DD6",
+  "vectors": 37888,
+  "seconds": 91.75,
+  "output": "PASS LBA sharing equivalence: 37888 state/shift/address vectors; 18331 actual one-cycle requests; all outputs, state and continuation equal\nREQUEST_STATE 0 768\nREQUEST_STATE 5 1024\nREQUEST_STATE 7 1024\nREQUEST_STATE 8 491\nREQUEST_STATE 10 1024\nREQUEST_STATE 12 1024\nREQUEST_STATE 13 488\nREQUEST_STATE 15 1024\nREQUEST_STATE 19 1024\nREQUEST_STATE 21 1024\nREQUEST_STATE 22 494\nREQUEST_STATE 24 1024\nREQUEST_STATE 26 1024\nREQUEST_STATE 27 1024\nREQUEST_STATE 28 1024\nREQUEST_STATE 29 1024\nREQUEST_STATE 30 491\nREQUEST_STATE 31 768\nREQUEST_STATE 34 1024\nREQUEST_STATE 35 495\nREQUEST_STATE 36 1024\n",
+  "full_synthesis_run": false,
+  "place_and_route_run": false
+}

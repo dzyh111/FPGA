@@ -1,0 +1,10 @@
+*_Runs/
+backup*/
+_backup*/
+*.db
+*.bit
+*.vvp
+*.vcd
+__pycache__/
+*.log
+*.logw
